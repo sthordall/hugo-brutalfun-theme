@@ -1,0 +1,7 @@
+<header>
+  <div>
+    {{ with .Site.Title }}
+    <h1><a href="{{ $.Site.BaseURL }}">{{ . }}</a></h1>
+    {{ end }}
+  </div>
+</header>
